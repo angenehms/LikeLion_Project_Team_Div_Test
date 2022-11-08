@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(178, 193, 241)
+}
+
+/* 타이머 메인 - 전체 */
+.timer_wrapper {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(85, 114, 187, 1);
+    border-radius: 5%;
+    padding: 50px;
+}
+
+/* 타이머 메인 - 타이틀 */
+.timer_title {
+    text-align: center;
+    color: white;
+}
+
+/* 타이머 메인 - 남은시간 */
+.number_box {
+    color: white;
+}
+
+.box_hours, .box_min, .box_sec {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(55, 75, 124, 1);
+    border-radius: 5%;
+    display: inline-block;
+}
+
+
+/* 타이머 메인 - 버튼 */
+.btn_start_on, .btn_reset_on, .btn_pause {
+    display: none;
+}
+
